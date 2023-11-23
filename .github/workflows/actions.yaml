@@ -15,3 +15,7 @@ jobs:
           node-version: '18.x'
       - run: npm install
       - run: npm test
+
+spec:
+  containers:
+  image: us-docker.pkg.dev/cit262-teamproject/levi-api/api-tests
